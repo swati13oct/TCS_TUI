@@ -1,0 +1,206 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-06-29T08:45:17.199Z",
+        "line": 4,
+        "name": "To perform hotel search in Brasil and check if offers are displayed",
+        "description": "",
+        "id": "to-search-for-hotels-on-tui-site;to-perform-hotel-search-in-brasil-and-check-if-offers-are-displayed",
+        "after": [
+          {
+            "result": {
+              "duration": 2542000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.stepDefiniton.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 24792000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have launched the browser",
+            "match": {
+              "location": "stepdefinition.stepDefiniton.i_have_launched_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14525000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I have navigated to TUI home page",
+            "match": {
+              "location": "stepdefinition.stepDefiniton.i_have_navigated_to_tui_home_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19389000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have selected country \"Brasil\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Brasil\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinition.stepDefiniton.i_have_selected_brasil_as_my_country(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10034000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter city name as \"Rio\" in Find a destination text box to search for hotel",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rio\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefinition.stepDefiniton.i_enter_city_name_as_in_find_a_destination_text_box_to_search_for_hotel(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5977000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select the from \"2022-07-26\" and to dates \"2022-07-28\" in the calendar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2022-07-26\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"2022-07-28\"",
+                  "offset": 44
+                }
+              ],
+              "location": "stepdefinition.stepDefiniton.i_select_the_from_and_to_dates_in_the_calendar(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2515000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I select the number of guests",
+            "match": {
+              "location": "stepdefinition.stepDefiniton.i_select_the_number_of_guests()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18774000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I clicked on Search button",
+            "match": {
+              "location": "stepdefinition.stepDefiniton.i_clicked_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 489000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "site redirects to available hotels for the chosen dates",
+            "match": {
+              "location": "stepdefinition.stepDefiniton.site_redirects_to_available_hotels_for_the_chosen_dates()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 713000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I check atleast one hotel is displayed in search results",
+            "match": {
+              "location": "stepdefinition.stepDefiniton.i_check_atleast_one_hotel_is_displayed_in_search_results()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3043000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I select a hotel from the search results and click on its Reservation button",
+            "match": {
+              "location": "stepdefinition.stepDefiniton.i_select_a_hotel_from_the_search_results_and_click_on_its_reservation_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24391000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "site redirects to the Hotel offer details page",
+            "match": {
+              "location": "stepdefinition.stepDefiniton.site_redirects_to_the_hotel_offer_details_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 47000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I check atleast one hotel offer is displayed on the page",
+            "match": {
+              "location": "stepdefinition.stepDefiniton.i_check_atleast_one_hotel_offer_is_displayed_on_the_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Offers"
+          }
+        ]
+      }
+    ],
+    "name": "To search for hotels on TUI site",
+    "description": "",
+    "id": "to-search-for-hotels-on-tui-site",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/hotelSearch.feature",
+    "tags": []
+  }
+]

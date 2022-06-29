@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="138216" started-at="2022-06-29T08:45:10Z" finished-at="2022-06-29T08:47:28Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.Runner@4b4523f8]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="138216" started-at="2022-06-29T08:45:10Z" finished-at="2022-06-29T08:47:28Z">
+      <class name="runners.Runner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runners.Runner@4b4523f8]" name="setUpClass" is-config="true" duration-ms="4320" started-at="2022-06-29T14:15:10Z" finished-at="2022-06-29T14:15:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.Runner@4b4523f8]" name="runScenario" duration-ms="129843" started-at="2022-06-29T14:15:14Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-29T14:17:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To perform hotel search in Brasil and check if offers are displayed"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[To search for hotels on TUI site]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runners.Runner@4b4523f8]" name="tearDownClass" is-config="true" duration-ms="3988" started-at="2022-06-29T14:17:24Z" finished-at="2022-06-29T14:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.Runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

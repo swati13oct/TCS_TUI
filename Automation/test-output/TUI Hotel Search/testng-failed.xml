@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TUI Hotel Search]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Offer Search(failed)">
+    <classes>
+      <class name="runners.Runner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- runners.Runner -->
+    </classes>
+  </test> <!-- Offer Search(failed) -->
+</suite> <!-- Failed suite [TUI Hotel Search] -->
